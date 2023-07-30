@@ -1,0 +1,400 @@
+
+nav .logo{
+    width: 20%;
+}
+nav .ds{
+    width: 200px;
+    height: 20%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: blue;
+    border:blue solid;
+    color: white;
+
+}
+.head{
+    text-align: center;
+    margin-top: 13%;
+}
+.head h1{
+    font-size: 50px;
+    
+}
+.head p{
+    font-size: 15px;
+}
+.head .ds{
+    width: 200px;
+    height: 20%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: blue;
+    border:blue solid;
+}
+.head .ds a{
+    color: white;
+    text-decoration: none;
+}
+.head .se {
+    width: 200px;
+    height: 20%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: white;
+    border: blue solid;
+}
+
+.head .se a {
+    color: blue;
+    text-decoration: none;
+}
+
+.head .tim{
+    font-size: 15px;
+    color: blue;
+}
+.head img{
+    margin-top: 5%;
+    width: 80%;
+}
+
+
+/* sup */
+.sup{
+    text-align: center;
+    margin-top: 5%;
+}
+.sup p{
+    text-align: center;
+}
+.sup img{
+    margin-top: -2%;
+}
+.sup .brin{
+    width: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.sup .ngalup{
+    width: 30%;
+}
+.sup .cbn{
+    margin-left: -10%;
+    width: 25%;
+}
+.sup .code{
+    width: 35%;
+}
+.sup .mandiri{
+    width: 25%;
+}
+.sup .kp{
+    width: 40%;
+}
+
+/* role */
+.role {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.role-row {
+    display: flex;
+    justify-content: space-between;
+}
+.role-col {
+    flex-basis: 32%;
+    border-radius: 5px;
+    text-align: center;
+    background: #F8F8F8;
+    box-sizing: border-box;
+    transition: 1s;
+    padding: 10px;
+}
+.role-col img {
+    margin-top: 20%;
+    margin-bottom: 20%;
+    width: 150px;
+    height: 150px;
+    border-radius:100%;
+    transition: 0.5s;
+}
+.role-row h3{
+    margin-bottom: 2%;
+    text-align: left;
+    margin-left: 10%;
+}
+.role-row p{
+    margin-bottom: 10%;
+}
+
+.role-col:hover{
+    background-color: blue;
+    color: white;
+}
+
+/* BENEFIT */
+.ben{
+    margin-top: 10%;
+    text-align: center;
+}
+.ben .hd{
+    margin-top: -5%;
+    width: 80%;
+    margin-bottom: 2%;
+}
+.ben .ds{
+    width: 200px;
+    height: 20%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: blue;
+    border:blue solid;
+}
+.ben .ds a {
+    color: white;
+    text-decoration: none;
+}
+
+.ben .fq {
+    width: 150px;
+    height: 20%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: transparent;
+    border: transparent solid;
+}
+
+.ben .fq a {
+    color: blue;
+    text-decoration: none;
+}
+.ben .tb {
+    margin-top: 3%;
+    width: 70%;
+    margin-bottom: 2%;
+}
+
+/* time */
+.time{
+    margin-top: 10%;
+    text-align: center;
+}
+.time h1{
+    margin-left: 10%;
+    text-align: left;
+}
+.time .tl{
+    width: 80%;
+}
+
+/*insight*/
+/* role */
+.in {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.in h1{
+    text-align: center;
+    margin-left: -3%;
+}
+.in-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.in-col {
+    flex-basis: 32%;
+    border-radius: 5px;
+    text-align: center;
+    background: #f8f8f8;
+    box-sizing: border-box;
+    transition: 1s;
+}
+
+.in-col img {
+    margin-top: 20%;
+    margin-bottom: 20%;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    transition: 0.5s;
+}
+
+.in-row h3 {
+    margin-bottom: 2%;
+    text-align: center;
+    color: black;
+}
+
+.in-row p {
+    margin-bottom: 10%;
+}
+
+/* FAQ*/
+.faq{
+    margin-top: 10%;
+}
+.faq h1{
+    margin-top: 10%;
+}
+.faq .wa {
+    width: 200px;
+    height: 20%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: #1DBF74;
+    border: #1DBF74 solid;
+}
+
+.faq .wa a {
+    color: white;
+    text-decoration: none;
+}
+.faq .em {
+    margin-left: 2%;
+    width: 200px;
+    height: 20%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: white;
+    border: blue solid;
+}
+
+.faq .em a {
+    color: blue;
+    text-decoration: none;
+}
+.faq{
+    border-color: blue;
+    margin-top: 5px;
+    margin-left: 10%;
+}
+/* FOOT */
+.foot{
+    margin-top: 10%;
+    text-align: center;
+}
+.foot p{
+    margin-top: 2%;
+    font-size: 20px;
+}
+.foot .ds {
+    width: 200px;
+    height: 20%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: blue;
+    border: blue solid;
+}
+
+.foot .ds a {
+    color: white;
+    text-decoration: none;
+}
+
+.foot a{
+    margin-top: 2%;
+    color: blue;
+    text-decoration: none;
+}
+.foot .ft{
+    margin-top: 5%;
+    width: 70%;
+}
+.foot .lg {
+    margin-top: 5%;
+    width: 20%;
+}
+.jk{
+    margin-top: 7%;
+    padding: 10px;
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
+/* kartu */
+.kartu{
+    border-color: black;
+    background-color: white;
+    transition: 1s;
+}
+
+.kartu:hover{
+    background-color: blue;
+    color:white;
+}
+
+.kartu button{
+    transition: 1s;
+}
+.kartu button:hover{
+    color: white;
+}
+/*.kartu button:hover {
+    background-color: blue;
+    color: white;
+}*/
+
+/*RESPONSIVE*/
+@media screen and (max-width: 700px){
+    .head{
+        margin-top: 30%;
+    }
+    .head .se {
+        margin-top: 5%;
+    }
+
+    /*SUP*/
+    .role-row{
+        flex-direction: column;
+        margin-top: 5%;
+    }
+    .role-row p{
+        text-align: left;
+    }
+    .ben .ds{
+        width: 150px;
+        height: 20%;
+    }
+    .ben .hd{
+        margin: 5%;
+    }
+    .ben .tb {
+        width: 90%;
+    }
+    .time .tl{
+    width: 100%;
+    }
+    .in-row{
+        flex-direction: column;
+    }
+    .kartu button{
+        text-align: left;
+        font-size: 80%;
+    }
+    .faq .em {
+    margin-top: 5%;
+    margin-left: 0%;
+    }
+}
